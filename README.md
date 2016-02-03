@@ -1,20 +1,10 @@
 Bucky Cookbook
 ========================
-[![Build Status](https://img.shields.io/travis/socrata-cookbooks/bucky-cookbook.svg)][travis]
-[![Code Climate](https://img.shields.io/codeclimate/github/socrata-cookbooks/bucky-cookbook.svg)][codeclimate]
-[![Coverage Status](https://img.shields.io/coveralls/socrata-cookbooks/bucky-cookbook.svg)][coveralls]
-
-[travis]: https://travis-ci.org/socrata-cookbooks/bucky-cookbook
-[codeclimate]: https://codeclimate.com/github/socrata-cookbooks/bucky-cookbook
-[coveralls]: https://coveralls.io/r/socrata-cookbooks/bucky-cookbook
 
 Cookbook to install and configure the python package Bucky.
 
 Requirements
 ============
-
-This cookbook is designed to run specifically in AWS and utilzes the aws
-metadata endpoint.
 
 Usage
 =====
@@ -52,6 +42,7 @@ desired attributes would be to write a Samhain wrapper cookbook of your own.
 License & Authors
 =================
 - Author:: Matt Shankar <matt.shankar@socrata.com>
+- Author:: Justin Haynes <justin.haynes@socrata.com>
 
 Copyright 2015-2016, Socrata, Inc.
 
