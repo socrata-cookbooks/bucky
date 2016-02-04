@@ -1,0 +1,7 @@
+{
+  "name": "test_bucky_role",
+  "chef_type": "role",
+  "json_class": "Chef::Role",
+  "description": "A test role for bucky",
+  "run_list": []
+}
