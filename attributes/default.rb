@@ -39,6 +39,7 @@ default['bucky']['statsd_port'] = 8125
 
 default['bucky']['name_host_trim_array'] = nil
 default['bucky']['name_prefix'] = nil
+
 default['bucky']['name_postfix'] = nil
 
 # These must be set per environment

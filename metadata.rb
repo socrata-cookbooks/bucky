@@ -6,7 +6,7 @@ maintainer_email 'sysadmin@socrata.com'
 license          'All rights reserved'
 description      'Installs and configures Bucky'
 long_description 'Installs and configures Bucky'
-version          '0.1.0'
+version          '0.1.1'
 
 depends          'python'
 depends          'runit'
