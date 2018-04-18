@@ -1,14 +1,18 @@
-# Encoding: UTF-8
+# frozen_string_literal: true
 
-name             'bucky'
-maintainer       'Justin Haynes'
+name 'bucky'
+maintainer 'Socrata Engineering'
 maintainer_email 'sysadmin@socrata.com'
-license          'All rights reserved'
-description      'Installs and configures Bucky'
+license 'All rights reserved'
+description 'Installs and configures Bucky'
 long_description 'Installs and configures Bucky'
-version          '0.1.1'
+version '0.2.0'
+chef_version '>= 12.1'
 
-depends          'python'
-depends          'runit'
+source_url 'https://github.com/socrata-cookbooks/bucky'
+issues_url 'https://github.com/socrata-cookbooks/bucky/issues'
 
-supports         'ubuntu'
+depends 'runit'
+depends 'snu_python'
+
+supports 'ubuntu'
