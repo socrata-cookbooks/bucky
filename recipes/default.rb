@@ -18,10 +18,10 @@
 # limitations under the License.
 #
 
-include_recipe 'python'
+include_recipe 'snu_python'
 include_recipe 'runit'
 
-python_pip 'bucky' do
+snu_python_package 'bucky' do
   version node['bucky']['version']
 end
 

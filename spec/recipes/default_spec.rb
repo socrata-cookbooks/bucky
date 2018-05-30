@@ -10,12 +10,12 @@ describe 'bucky::default' do
     expect(chef_run).to include_recipe('runit')
   end
 
-  it 'includes the python::default recipe' do
-    expect(chef_run).to include_recipe('python')
+  it 'includes the snu_python::default recipe' do
+    expect(chef_run).to include_recipe('snu_python')
   end
 
   it 'installs the python package bucky' do
-    expect(chef_run).to install_python_pip('bucky')
+    expect(chef_run).to install_snu_python_package('bucky')
   end
 
   it 'creates bucky dir' do
