@@ -21,7 +21,8 @@
 include_recipe 'snu_python'
 include_recipe 'runit'
 
-snu_python_package 'bucky' do
+python_package 'bucky' do
+  python '2'
   version node['bucky']['version']
 end
 
