@@ -15,7 +15,7 @@ describe 'bucky::default' do
   end
 
   it 'installs the python package bucky' do
-    expect(chef_run).to install_snu_python_package('bucky')
+    expect(chef_run).to install_python_package('bucky').with(python: '2')
   end
 
   it 'creates bucky dir' do
